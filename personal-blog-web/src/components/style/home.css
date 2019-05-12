@@ -1,0 +1,7 @@
+.logo {
+  width: 120px;
+  height: 33px;
+  display: inline-block;
+  float: left;
+  background-image: url(/public/logo.png)
+}
