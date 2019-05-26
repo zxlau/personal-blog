@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Layout, Menu } from 'antd';
-// import Home from './components/home'
 import './App.css';
 import logo from './images/logo.png'
 import AppContent from './components/appContent'

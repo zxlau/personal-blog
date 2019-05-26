@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Home from './home'
 
 class appContent extends Component {
   constructor(props) {
@@ -7,7 +8,7 @@ class appContent extends Component {
   render() {
     let content;
     if(this.props.selectedKeys === '1') {
-      content = '首页'
+      content = <Home></Home>
     } else if(this.props.selectedKeys === '2') {
       content = '技术'
     } else if(this.props.selectedKeys === '3') {
