@@ -2,3 +2,11 @@
 .App {
   
 }
+.logo {
+  width: 120px;
+  height: 33px;
+  display: inline-block;
+  float: left;
+  background-size: cover;
+  margin-top: 15px;
+}
